@@ -1,0 +1,26 @@
+{
+  "view_engine":"ejs",
+  "db":{
+    "mysql":{
+      "dev":{
+        "default":{
+          "host": "localhost",
+          "user": "root",
+          "password": "root",
+          "database": "jdomnipos"
+        }
+      },
+      "prod":{
+        "default":{
+          "host": "",
+          "user": "",
+          "password": "",
+          "database": ""
+        }
+      }
+    },
+    "mongo":{
+
+    }
+  }
+}
